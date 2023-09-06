@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task1</title>
+        <style>
+            table{
+                width: 100%;
+                background-color: rgba(35, 162, 185, 0.63);
+                border-radius: 10px;
+                border: 1px solid black;
+            }
+            th,td{
+                padding:8px;
+                text-align: left;
+                border-radius: 10px;
+            }
+            th{
+                text-align: center;
+            }
+            .shapes{
+                width: 50%;
+                overflow: hidden;
+                margin: auto;
+                padding: 50px;
+            }
+            .shapes ul{
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .shapes div{
+                float: left;
+                width: 50px;
+                height: 50px;
+                margin: 20px;
+                border: 2px solid rgb(119, 191, 36);
+            }
+            #i11 ,#i12,#i21{
+                border-radius: 10%;
+            }
+            #i31{
+                border-radius: 50%;
+            }
+            #i13,#i23{
+                border-radius: 25%;
+            }
+            #i33{
+                border-radius: 0 15px 0 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1px" borderColor="white">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Varun</td>
+                <td>Sudhir</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Umadevi</td>
+                <td>Sudhir</td>
+                <td>49</td>
+            </tr>
+            <tr>
+                <td>Sudhir</td>
+                <td>Madhvan</td>
+                <td>50</td>
+            </tr>
+        </table>
+        <div class="shapes">
+            <ul>
+            <li><div id="i11"></div></li>
+            <li><div id="i12"></div></li>
+            <li><div id="i13"></div></li>
+            <li><div id="i21"></div></li>
+            <li><div id="i22"></div></li>
+            <li><div id="i23"></div></li>
+            <li><div id="i31"></div></li>
+            <li><div id="i32"></div></li>
+            <li><div id="i33"></div></li>
+        </ul>
+        </div>
+    </body>
+</html>

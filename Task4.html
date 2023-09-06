@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <center>
+        <table cellspacing="10">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1></h1>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="full_name">Full Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="full_name" name="full_name" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="user_name">User Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="user_name" name="user_name" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="password">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="reenter_password">Re-enter Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="reenter_password" name="reenter_password" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="age">Age:</label>
+                </td>
+                <td>
+                    <input type="number" id="age" name="age" required>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">
+                    <label for="gender">Gender:</label>
+                </td>
+                <td>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save">
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
